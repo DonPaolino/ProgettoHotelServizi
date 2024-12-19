@@ -16,7 +16,7 @@ class ServiziGiornalieriTest extends TestCase
         $servizioColazione = new ServizioColazione(10.0); // 10 euro al giorno
         $servizioParcheggio = new ServizioParcheggio(15.0); // 15 euro al giorno
 
-        $prenotazione = $direzione->creaPrenotazioneStandard("Mario Rossi", 100.0, 5);
+        $prenotazione = $direzione->creaPrenotazioneStandard("Pippo Franco", 100.0, 5);
         $prenotazione->aggiungiServizio($servizioColazione);
         $prenotazione->aggiungiServizio($servizioParcheggio);
 
